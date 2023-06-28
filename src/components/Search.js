@@ -97,9 +97,9 @@ export default function Search(props) {
         <div className="results-list">
           {result.map((product)=>(
             <div key={product.id}>
-              <li className='list'> {product.title}</li>
-              <li className='list'> {product.category}</li>
-              <li className='list'> {product.price}</li>
+              <li className='list'>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;{product.title}</li>
+              <li className='list'> Category:&nbsp;&nbsp; {product.category}</li>
+              <li className='list'> Price:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{product.price}</li>
               <hr />
             </div>
 
