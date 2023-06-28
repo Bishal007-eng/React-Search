@@ -1,0 +1,34 @@
+.Search-option{
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 1rem;
+  border: 5px solid #AFB5BC;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 47vw;
+  margin-top: 1%;
+}
+.Search-option:hover{
+  border-color: #30b823;
+}
+.icon{
+  width: 35px;
+  color: black;
+  padding: 7px;
+}
+
+.search{
+  /* color: black; */
+  font-weight: bold ;
+  margin-top: 12px;
+}
+
+.shortcut{
+  margin-left: 10px;
+  border: 2px solid #A1A2A4;
+  border-radius: 5px;
+  padding: 3px 4px;
+  color: black;
+}

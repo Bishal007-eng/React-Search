@@ -1,0 +1,177 @@
+
+.container{
+  padding: 5px;
+  margin-top: 35px;
+  background: #535050;
+  width: 60%;
+  
+}
+
+.search-box{
+  align-items: center;
+  display: flex;
+  /* padding: 12px; */
+  /* border: 2px solid green; */
+  width: 50vw;
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 40px;
+  /* margin-bottom: 30px; */
+  height: 150px;
+  background-color: white;
+  /* flex-direction: row; */
+ 
+}
+.component{
+  border: 2px solid green;
+  width: 95%;
+  margin-left: 25px;
+  height: 80px;
+  border-radius: 10px;
+
+}
+
+ input{
+  border: none;
+
+}
+
+.input-field{
+  align-items: center;
+  background-color: light;
+  height: 50px;
+  width: 72%;
+  margin-right: 1%;
+  border: 0;
+  border-color: white;  
+  padding-left: 15px;
+  
+}
+
+.Icon-Search{
+  height: 35px;
+  margin: 1.5%;
+  background-color: white;  
+  height: 50px;
+  outline: none;
+  appearance: none;
+  border-radius: 10px;
+
+}
+
+.Search-Options{
+  border: 2px solid green;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: none;
+  height: 50px;
+
+
+}
+
+.Filter-Search{
+  height: 25px;
+  /* margin-left: 25px; */
+  margin: 0;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.Close-Search{
+  height: 25px;
+  margin-left: 15px;
+  margin: 0;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.results-list{
+  /* align-items: center; */
+  width: 50vw;
+  /* text-align: center; */
+  margin-left: 8%;
+  background-color: white;
+  overflow-y: scroll;
+  max-height: 355px;
+  padding-bottom: 20px;
+  border: 0.5px solid black;
+  /* margin-bottom: 15px; */
+  /* display: grid; */
+  
+}
+
+.list {
+ border: 1px solid rgb(110, 190, 240);
+ list-style: ' # ';
+ align-items: left;
+ margin: 4px;
+ font-size: 20px;
+ box-shadow: 2px 3px #bdecf4;
+ border-radius: 7px;
+ padding-left: 10px;
+ cursor: pointer;
+ font-weight: bold;
+}
+
+.list:hover{
+  color: rgb(136, 190, 217);
+  transition: 0.5s;
+  background-color: rgb(11, 7, 30);
+}
+
+
+.components{
+  align-items: center;
+  display: flex;
+  padding: 12px;
+  /* border: 2px solid green; */
+  width: 50vw;
+  text-align: center;
+  margin-left: 8%;
+  /* margin-top: 40px; */
+  margin-bottom: 30px;
+  /* height: 150px; */
+  background-color: white;
+}
+
+.navigator{
+  margin-left: 2.5%;
+}
+
+.Arrow{
+  height: 25px;
+  padding: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 5px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+}
+.selector{
+  margin-left: 25px;
+}
+.Select{
+  height: 25px;
+  padding: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 5px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+
+}
+
+.Escape{
+  height: 25px;
+  padding: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 5px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+
+}
+
